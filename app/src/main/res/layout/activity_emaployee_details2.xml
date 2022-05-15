@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:backgroundTint="@color/kt"
+            app:navigationIcon="@drawable/ic_menu"
+            app:menu="@menu/menu"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary" >
+            <TextView
+                android:id="@+id/tvemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </com.google.android.material.appbar.MaterialToolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <!-- Note: A RecyclerView can also be used -->
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        </androidx.core.widget.NestedScrollView>
+
+        <!-- Scrollable content -->
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:foregroundGravity="center_vertical"
+    android:layout_marginTop="60dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="35dp"
+        android:backgroundTint="@color/kt"
+        android:text="@string/pause"
+        android:textAllCaps="false"
+        app:cornerRadius="20dp">
+
+    </com.google.android.material.button.MaterialButton>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="35dp"
+        android:backgroundTint="@color/kt"
+        android:text="@string/play"
+        android:textAllCaps="false"
+        app:cornerRadius="20dp">
+
+    </com.google.android.material.button.MaterialButton>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:background="@drawable/ic_baseline_play_arrow_24"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/kt"
+        android:layout_marginLeft="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="35dp"
+        android:backgroundTint="@color/kt"
+        android:textAllCaps="false"
+        app:cornerRadius="20dp">
+
+    </com.google.android.material.button.MaterialButton>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="35dp"
+        android:backgroundTint="@color/kt"
+        android:text="@string/stopservice"
+        android:textAllCaps="false"
+        app:cornerRadius="20dp">
+
+    </com.google.android.material.button.MaterialButton>
+
+
+</LinearLayout>
+
+
+
+</RelativeLayout>

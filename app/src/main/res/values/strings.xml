@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">AndroidService</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="EmployeeId">EmployeeId</string>
+    <string name="Email">Email</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="ConfirmPasword">ConfirmPassword</string>
+    <string name="sign_up">Signup</string>
+    <string name="signup">Signup</string>
+    <string name="you_have_an_account_login">Already have an account?Signin</string>
+    <string name="email">Email</string>
+    <string name="Signin">Signin</string>
+    <string name="don_t_have_an_account_sign_up">Dont have an account?Sigup</string>
+    <string name="welcome">Welcome</string>
+    <string name="hello">HEllO</string>
+    <string name="employeedetails">Employee Details</string>
+    <string name="Logout">Logout</string>
+    <string name="Burger">Burger</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="Resume">Resume</string>
+    <string name="stopservice">Stop Service</string>
+    <string name="play">Play</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="Test1">Sample</string>
+    <string name="map_key" translatable="false">AIzaSyCCOxueqhV04nbLz_Jmnn5fEaQcVa3xb-w</string>
+
+</resources>
